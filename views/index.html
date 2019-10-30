@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <title>CST336 HW1</title>
+        <meta charset="utf-8">
+        <link  href="css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacific" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1><u>Bitcoin</u></h1>
+        </header>
+        <hr>
+<% include partials/navigation.ejs %>
+        
+        <main style="display:flex">
+            <figure>
+                <img src="img/bitcoin.jpeg" alt="bitcoin"/>
+            </figure>
+            
+            <span id="introText">
+                <p>Bitcoin is a cryptocurrency, and can be considered to be the father of all cryptocurrencies. A cryptocurrency is a  decentralized digital currency without a need for a central authority, such as a bank. It is sent from user to user with no need for a middle man, and is maintained by decentralized servers meaning it has no single authority that controls it.</p>
+                <p>Some people may not see Bitcoin in the best light, due to it's price volatility and association with crime. However, the technolgy behind it quite impressive and potentially world changing. </p>
+            </span>
+            
+          
+        </main>
+        <h4>Contact the Bitcoin Expert at:</h4>
+        <%= email %>
+      <% include partials/footer.ejs %>   
+        
+    </body>
+    <!-- closing body -->
+
+</html>

@@ -1,0 +1,54 @@
+h1 {
+    color:yellow;
+    display: flex;
+    justify-content: center;
+    font-family: Orbitron;
+    font-size: 4em;
+}
+
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+    
+
+a {
+     padding:20px;
+}
+
+
+body {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    color: white;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong {
+    color: orange;
+}
+
+p {
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 1.3em;
+  color: white;
+}
+
+#introText {
+    border-style: ridge;
+}
+
+#csumb {
+    opacity: 0.5;
+}

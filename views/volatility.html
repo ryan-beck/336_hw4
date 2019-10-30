@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <title>CST336 HW1</title>
+        <meta charset="utf-8">
+        <link  href="css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacific" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1><u>Bitcoin</u></h1>
+        </header>
+        <hr>
+<% include partials/navigation.ejs %>
+        
+        <main style="display:flex">
+            
+            <figure>
+                <img src="img/Volatility.jpg" width=300 alt="volatility" />
+            </figure>
+            
+            <span id="introText">
+                <p>One of the main criticisms of Bitcoin is it's volatility. The price of Bitcoin changes very rapidly, making not very useful as an everyday currency.</p>
+                <p>With that being said, it has become a very lucrative investment opportunity for some. At the time of this writing (September 2019) the price of Bitcoin sits at around $10,000. That is up over 1000% from January 2017, but actually down almost 50% from its peak (~$20,000) around December 2017.</p>
+            </span>
+            
+         
+        </main>
+        
+        <h4>Contact the Bitcoin Expert at:</h4>
+        <%= email %>
+        
+<% include partials/footer.ejs %>   
+         
+        
+    </body>
+    <!-- closing body -->
+
+</html>

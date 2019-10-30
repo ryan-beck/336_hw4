@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <title>CST336 HW1</title>
+        <meta charset="utf-8">
+        <link  href="css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacific" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1><u>Bitcoin</u></h1>
+        </header>
+        <hr>
+<% include partials/navigation.ejs %>
+        
+        <main style="display:flex">
+            
+            <figure>
+                <img src="img/satoshi.png" width=300 alt="satoshi" />
+            </figure>
+            
+            
+            <span id="introText">
+                <p>The idea behind Bitoin was created by an unknown person, or persons, going by the alias of Satoshi Nakamoto. In October 2008, an article was published by Nakamoto: “A Peer-to-Peer Electronic Cash System”, which outlined the basis of the Bitcoin ecosystem. </p>
+                <p>The first version of Bitcoin code was released in January 2009. The first block in the Bitcoin blockchain was created. This transaction was between Nakamoto and one of the developers named Hal Finney.</p>
+            </span>
+            
+          
+        </main>
+        
+        <h4>Contact the Bitcoin Expert at:</h4>
+        <%= email %>
+        
+<% include partials/footer.ejs %>   
+         
+        
+    </body>
+    <!-- closing body -->
+
+</html>

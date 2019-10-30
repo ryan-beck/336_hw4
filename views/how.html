@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <title>CST336 HW1</title>
+        <meta charset="utf-8">
+        <link  href="css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacific" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+        <header>
+            <h1><u>Bitcoin</u></h1>
+        </header>
+        <hr>
+<% include partials/navigation.ejs %>
+        
+        <main style="display:flex">
+            
+            <figure>
+                <img src="img/blockchain.png" width=300 alt="blockchain" />
+            </figure>
+            
+            <span id="introText">
+                <p>The Bitcoin network is powered by blockchain technology. Blockchain allows for a decentralized ledger, or record of all payments made on the system. All the money in circulation is accounted for and anyone can see any transaction. This makes fraud nearly impossible.</p>
+                <p>The network is supported by decentralized nodes which keep track of the ledger. Transactions on the network are supported by a process known as "mining". Bitcoin miners give their computing power to the network and are paid in Bitcoin, which is how new Bitcoin is created. </p>
+            </span>
+            
+          
+        </main>
+        
+        <h4>Contact the Bitcoin Expert at:</h4>
+        <%= email %>
+        
+<% include partials/footer.ejs %>   
+         
+        
+    </body>
+    <!-- closing body -->
+
+</html>
